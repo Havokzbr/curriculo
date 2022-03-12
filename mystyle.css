@@ -1,6 +1,6 @@
 .icon-whatsapp {
     font-size:400% ;
-    position: absolute;
+    position: fixed;
     width: 60px;
     height: 60px;
     bottom: 40px;
