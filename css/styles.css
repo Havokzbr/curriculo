@@ -11433,3 +11433,47 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+body {
+    background: #f1f1f1;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    outline: none;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background: #34af23;
+    color: #FFF;
+    font-size: 2.3rem;
+    border: 1px solid #f1f1f1;
+
+    /* animation-name: pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;  */
+
+    animation: pulsar 0.8s ease-out 1s infinite alternate none running;
+}
+
+a {
+    color: inherit;
+}
+
+@keyframes pulsar {
+    0% {
+        height: 55px;
+        width: 55px;
+    }
+    100% {
+        height: 75px;
+        width: 75px;
+    }
+}
